@@ -1,0 +1,22 @@
+Variables de entorno del front: 
+REACT_APP_BASE_URL=http://localhost:5000
+
+----------------------------------------------------------------
+
+Variables en entorno del back:
+
+URL_SYMBOLS=http://data.fixer.io/api/symbols?access_key=ffcc344a3f31700c0020d166fd17ea96
+API_BASE_URL=http://data.fixer.io/api
+API_ACCESS_KEY=ffcc344a3f31700c0020d166fd17ea96
+
+----------------------------------------------------------------
+FRONT: React.
+BACK: Node / hapi / Typescript / Mongo DB
+
+----------------------------------------------------------------
+
+Unicamente ingresar a cada carpeta (settle-back , settle-front), ejecutar "npm i" para instalar dependencias.
+Inicialmente se puede buscar por currency, por restricciones solo EUR arroja informacion.
+
+Despues se busca algunos pairs segun el documento. EURARS, EURUSD, etc se consulta la conversion y posibilita la opcion de crear un RATE.
+Informacion que mediante post, es guardada a un mongodb localhost, puede despues consultar los PAIRS/ RATES creados.
