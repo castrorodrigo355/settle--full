@@ -1,0 +1,7 @@
+.symbol--option--main--container{
+    border: 1px solid gray;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: rgb(117, 161, 244);
+}

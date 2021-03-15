@@ -1,0 +1,14 @@
+.rates--creation--main--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.rates--creation--main--container--field{
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+}

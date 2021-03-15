@@ -1,0 +1,36 @@
+.dropdown--main--container{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    position: relative;
+}
+
+.dropdown--main--container--selection{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: black;
+    opacity: 1;
+}
+
+.dropdown--main--container--options{
+    width: 99%;
+    border: 0.5px solid gray;
+    display: none;
+}
+
+.dropdown--main--container--options.open--options{
+    display: block;
+}
+
+.dropdown--main--container--options--item{
+    color: black;
+    opacity: 1;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    padding: 10px 0;
+}

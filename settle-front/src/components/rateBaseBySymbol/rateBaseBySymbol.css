@@ -1,0 +1,12 @@
+.rate--base--symbol--container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 10px 0;
+    width: 60%;
+    border-bottom: 0.5px solid rgb(200, 198, 198);
+}
+
+.rate--base--symbol--container--currency{}
+
+.rate--base--symbol--container--value{}

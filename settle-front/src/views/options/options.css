@@ -1,0 +1,75 @@
+.options--main--container{
+    width: 100%;
+    padding: 20px 0;
+}
+
+.options--main--container--base{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.options--main--container--list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    overflow: auto;
+    border: 0.5px solid rgb(224, 222, 222)
+}
+
+.options--main--container--list::-webkit-scrollbar {
+	width: 0px;
+	height: 4px;
+	background: transparent;
+}
+
+.options--main--container--list::-webkit-scrollbar-thumb {
+	border-radius: 2px;
+	height: 10px;
+	box-shadow: inset 0 0 3px transparent;
+}
+
+.options--main--container--list:hover::-webkit-scrollbar {
+	background: transparent;
+}
+
+
+.options--main--container--selections{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+.options--main--container--selections--selected{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 33%;
+    height: 100%;
+    padding: 10px;
+}
+
+.options--main--container--selections--button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 100%;
+}
+
+.options--main--container--results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

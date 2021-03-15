@@ -1,0 +1,21 @@
+.symbol--main--container {
+	border: 1px solid rgb(189, 191, 193);
+	height: 130px;
+	border-radius: 10px;
+	background: rgba(210, 187, 219, 0.249);
+	box-shadow: 4px 6px 5px -3px rgba(0, 0, 0, 0.47);
+	-webkit-box-shadow: 4px 6px 5px -3px rgba(0, 0, 0, 0.47);
+	-moz-box-shadow: 4px 6px 5px -3px rgba(0, 0, 0, 0.47);
+	margin-bottom: 20px;
+}
+
+.symbol--main--container--currency {
+	text-align: right;
+	padding: 5px 10px;
+}
+
+.symbol--main--container--description {
+	text-align: center;
+	font-style: italic;
+	font-size: 15px;
+}

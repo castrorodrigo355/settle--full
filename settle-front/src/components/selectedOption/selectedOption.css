@@ -1,0 +1,24 @@
+.options--main--container--selections--selected--item{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    padding: 3px 5px;
+    border: 1px solid gray;
+}
+
+.options--main--container--selections--selected--item--text{
+    text-align: center;
+}
+
+.options--main--container--selections--selected--item--icon{
+    height: 15px;
+    width: 15px;
+}
+
+.options--main--container--selections--selected--item--icon > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

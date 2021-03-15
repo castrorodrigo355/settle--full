@@ -1,0 +1,12 @@
+.row--rate--main--container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 5px 0;
+    border-bottom: 0.5px solid rgb(208, 206, 206);
+}
+
+.row--rate--main--container--tiem{
+    text-align: center;
+    padding: 5px 0;
+    font-size: 12px;
+}

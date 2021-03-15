@@ -1,0 +1,42 @@
+.pairs--main--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.pairs--main--container--from--to{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 140px;
+}
+
+.pairs--main--container--from--to--drop{
+    width: 40%;
+}
+
+.pairs--main--container--convertion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width: 70%;
+    height: 100px;
+}
+
+.pairs--main--container--result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.pairs--main--container--create{
+
+}

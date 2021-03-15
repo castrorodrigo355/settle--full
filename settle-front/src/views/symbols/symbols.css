@@ -1,0 +1,65 @@
+.symbols--main--container {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	/* width: 100%; */
+	height: 100%;
+}
+
+.symbols--main--container--input {
+	height: 30px;
+	width: 100%;
+	margin: 10px;
+}
+
+.symbols--main--container--list {
+	display: grid;
+	grid-template-columns: 250px 250px 250px;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	align-items: flex-start;
+	justify-content: center;
+	row-gap: 10px;
+	column-gap: 20px;
+	padding: 0 30px;
+	height: calc(100% - 30px);
+	min-width: 500px;
+	overflow: auto;
+}
+
+.symbols--main--container--list::-webkit-scrollbar {
+	width: 0px;
+	height: 4px;
+	background: transparent;
+}
+
+.symbols--main--container--list::-webkit-scrollbar-thumb {
+	border-radius: 2px;
+	height: 10px;
+	box-shadow: inset 0 0 3px transparent;
+}
+
+.symbols--main--container--list:hover::-webkit-scrollbar {
+	background: transparent;
+}
+
+@media (max-width: 525px) {
+  .symbols--main--container--list {
+    grid-template-columns: 250px ;
+	
+  }
+}
+
+@media (min-width: 525px) and (max-width: 849px) {
+  .symbols--main--container--list {
+    grid-template-columns: 250px 250px;
+
+  }
+}
+
+@media (min-width: 850px) {
+  .symbols--main--container--list {
+    grid-template-columns: 250px 250px 250px;
+	
+  }
+}

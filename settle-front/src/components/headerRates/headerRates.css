@@ -1,0 +1,22 @@
+.header--rates--main--container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.header--rates--main--container--title{
+	padding: 0 10px;
+}
+
+.header--rates--main--container--options{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;	
+}
+

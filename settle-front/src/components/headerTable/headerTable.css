@@ -1,0 +1,15 @@
+.header--table--main--container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background: black;
+    border-radius: 5px;
+    padding: 3px 0;
+}
+
+.field--main--container{
+    text-align: center;
+    padding: 5px 0;
+    font-size: 13px;
+    font-style: italic;
+    color: white;
+}
